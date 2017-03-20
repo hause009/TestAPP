@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98989155F8BA093FAF716101 /* Pods_TestAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E7C8142FA58AEBB7D6126 /* Pods_TestAPP.framework */; };
 		C2BA576F1E802DAA007A728B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA576E1E802DAA007A728B /* AppDelegate.swift */; };
 		C2BA57711E802DAA007A728B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA57701E802DAA007A728B /* ViewController.swift */; };
 		C2BA57741E802DAA007A728B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BA57721E802DAA007A728B /* Main.storyboard */; };
 		C2BA57771E802DAA007A728B /* TestAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2BA57751E802DAA007A728B /* TestAPP.xcdatamodeld */; };
 		C2BA57791E802DAA007A728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BA57781E802DAA007A728B /* Assets.xcassets */; };
 		C2BA577C1E802DAA007A728B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BA577A1E802DAA007A728B /* LaunchScreen.storyboard */; };
+		C2BA57841E803127007A728B /* SongsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA57831E803127007A728B /* SongsDataSource.swift */; };
+		C2BA57861E803142007A728B /* SongCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA57851E803142007A728B /* SongCollectionViewCell.swift */; };
+		C2BA57881E80315F007A728B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA57871E80315F007A728B /* NetworkClient.swift */; };
+		C2BA578A1E8031AC007A728B /* Song+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA57891E8031AC007A728B /* Song+CoreDataProperties.swift */; };
+		C2BA578C1E8031BC007A728B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA578B1E8031BC007A728B /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121E7C8142FA58AEBB7D6126 /* Pods_TestAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A8DA815BE7A564DCCC5E38 /* Pods-TestAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAPP/Pods-TestAPP.release.xcconfig"; sourceTree = "<group>"; };
 		C2BA576B1E802DAA007A728B /* TestAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA576E1E802DAA007A728B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2BA57701E802DAA007A728B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		C2BA57781E802DAA007A728B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2BA577B1E802DAA007A728B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2BA577D1E802DAA007A728B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BA57831E803127007A728B /* SongsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsDataSource.swift; sourceTree = "<group>"; };
+		C2BA57851E803142007A728B /* SongCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCollectionViewCell.swift; sourceTree = "<group>"; };
+		C2BA57871E80315F007A728B /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		C2BA57891E8031AC007A728B /* Song+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Song+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C2BA578B1E8031BC007A728B /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E6E76CFD6537B4874B1003A9 /* Pods-TestAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAPP/Pods-TestAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98989155F8BA093FAF716101 /* Pods_TestAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A9BCC05FEFE8CF2318D691A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6E76CFD6537B4874B1003A9 /* Pods-TestAPP.debug.xcconfig */,
+				77A8DA815BE7A564DCCC5E38 /* Pods-TestAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8794D4CC500E1DA82DE513EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				121E7C8142FA58AEBB7D6126 /* Pods_TestAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2BA57621E802DAA007A728B = {
 			isa = PBXGroup;
 			children = (
 				C2BA576D1E802DAA007A728B /* TestAPP */,
 				C2BA576C1E802DAA007A728B /* Products */,
+				1A9BCC05FEFE8CF2318D691A /* Pods */,
+				8794D4CC500E1DA82DE513EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +90,13 @@
 		C2BA576D1E802DAA007A728B /* TestAPP */ = {
 			isa = PBXGroup;
 			children = (
+				C2BA57831E803127007A728B /* SongsDataSource.swift */,
+				C2BA57851E803142007A728B /* SongCollectionViewCell.swift */,
 				C2BA576E1E802DAA007A728B /* AppDelegate.swift */,
 				C2BA57701E802DAA007A728B /* ViewController.swift */,
+				C2BA57871E80315F007A728B /* NetworkClient.swift */,
+				C2BA57891E8031AC007A728B /* Song+CoreDataProperties.swift */,
+				C2BA578B1E8031BC007A728B /* Song.swift */,
 				C2BA57721E802DAA007A728B /* Main.storyboard */,
 				C2BA57781E802DAA007A728B /* Assets.xcassets */,
 				C2BA577A1E802DAA007A728B /* LaunchScreen.storyboard */,
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2BA57801E802DAA007A728B /* Build configuration list for PBXNativeTarget "TestAPP" */;
 			buildPhases = (
+				D081B803B7E090D9B2C2C9E0 /* [CP] Check Pods Manifest.lock */,
 				C2BA57671E802DAA007A728B /* Sources */,
 				C2BA57681E802DAA007A728B /* Frameworks */,
 				C2BA57691E802DAA007A728B /* Resources */,
+				7F66C271ED91B6B186846F7D /* [CP] Embed Pods Frameworks */,
+				DEEAA5571E60D3B2C499336E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +177,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F66C271ED91B6B186846F7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAPP/Pods-TestAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D081B803B7E090D9B2C2C9E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEAA5571E60D3B2C499336E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAPP/Pods-TestAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2BA57671E802DAA007A728B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2BA57711E802DAA007A728B /* ViewController.swift in Sources */,
+				C2BA57841E803127007A728B /* SongsDataSource.swift in Sources */,
+				C2BA578A1E8031AC007A728B /* Song+CoreDataProperties.swift in Sources */,
 				C2BA57771E802DAA007A728B /* TestAPP.xcdatamodeld in Sources */,
+				C2BA578C1E8031BC007A728B /* Song.swift in Sources */,
+				C2BA57861E803142007A728B /* SongCollectionViewCell.swift in Sources */,
 				C2BA576F1E802DAA007A728B /* AppDelegate.swift in Sources */,
+				C2BA57881E80315F007A728B /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +356,7 @@
 		};
 		C2BA57811E802DAA007A728B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E76CFD6537B4874B1003A9 /* Pods-TestAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2NVVKND5P4;
@@ -274,6 +370,7 @@
 		};
 		C2BA57821E802DAA007A728B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A8DA815BE7A564DCCC5E38 /* Pods-TestAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2NVVKND5P4;
@@ -304,6 +401,7 @@
 				C2BA57821E802DAA007A728B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
